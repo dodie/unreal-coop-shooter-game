@@ -12,6 +12,8 @@ ASLauncher::ASLauncher():ASWeapon()
 
 void ASLauncher::Fire()
 {
+	LastFireTime = GetWorld()->TimeSeconds;
+
 	if (FireSound)
 	{
 		UGameplayStatics::SpawnSoundAtLocation(this, FireSound, GetActorLocation());
@@ -50,6 +52,5 @@ void ASLauncher::Fire()
 	// spawn the projectile at the muzzle
 	GetWorld()->SpawnActor<AActor>(ProjectileClass, MuzzleLocation, EyeRotation, ActorSpawnParams);
 
-	LastFireTime = GetWorld()->TimeSeconds;
 }
 
