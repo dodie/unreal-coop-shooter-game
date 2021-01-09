@@ -66,7 +66,12 @@ void ASWeapon::Fire()
 		// bullet spread
 		float HalfRad = FMath::DegreesToRadians(BulletSpreadInDegrees);
 		FVector ShotDirection = FMath::VRandCone(EyeRotation.Vector(), HalfRad, HalfRad);
-
+		
+		/*
+		Using EyeLocation as a TraceStart would work, but if you are standing in front of a wall
+		you might accidentally hit the wall behind you as the camera might overlap with it.
+		*/
+		FVector TraceStart = EyeLocation + (ShotDirection * 100);
 		FVector TraceEnd = EyeLocation + (ShotDirection * 10000);
 
 		FCollisionQueryParams QueryParams;
@@ -87,7 +92,7 @@ void ASWeapon::Fire()
 
 		// In Project Settings ->Engine->Collision there's a custom channel defined in slot 1, which is now used for collision detection
 		// instead of e.g. the visibility channel
-		bool BlockingHit = GetWorld()->LineTraceSingleByChannel(HitResult, EyeLocation, TraceEnd, COLLISION_WEAPON, QueryParams);
+		bool BlockingHit = GetWorld()->LineTraceSingleByChannel(HitResult, TraceStart, TraceEnd, COLLISION_WEAPON, QueryParams);
 		if (BlockingHit)
 		{
 			SurfaceType = UPhysicalMaterial::DetermineSurfaceType(HitResult.PhysMaterial.Get()); // PhysMat is a weak ref
