@@ -25,11 +25,15 @@ In multiplayer mode when connecting to remote machines you might have to specify
 
 They attack the players with a lightweight rifles. They seek cover as they advance, when wounded they try to retreat into a safe position so they can heal up.
 
+![Soldier Bot](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/soldierbot.jpg "Soldier Bot")
+
 
 ### Tracker Bot
 
 These machines roll toward the players just to explode when they are near. When there are bunch of them in one place they power each other, resulting in higher explosion damage.
 They are really bad at climbing or slowing down when they move fast.
+
+![Tracker Bot](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/trackerbot.jpg "Tracker Bot")
 
 
 ## Weapons
@@ -41,6 +45,8 @@ Fires armor armour-piercing rounds at very high muzzle velocity.
 - RPM: 600
 - Damage: 20 (80 on head)
 
+![Rifle](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/rifle.jpg "Rifle")
+
 
 ### Grenade Launcher
 
@@ -48,6 +54,8 @@ Launches bouncy grenades that explode after 1 second.
 
 - RPM: 120
 - Damage: 200, less when the target is further from the explosion. Be careful with friendly fire!
+
+![Grenade Launcher](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/glauncher.jpg "Grenade Launcher")
 
 
 ### Explosive Barrel Launcher
@@ -57,11 +65,13 @@ Places explosive barrels that explode after a certain amount of damage is dealt 
 - RPM: 60
 - Damage: 200, less when the target is further from the explosion. Be careful with friendly fire!
 
+![barrel Launcher](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/blauncher.jpg "Barrel Launcher")
 
 ## Maps
 
 ### Desert Arena
 
+![Desert Arena](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/desert_arena.jpg "Desert Arena")
 
 
 # Development
@@ -76,7 +86,7 @@ This project is licensed under the Unreal Engine 4 EULA.
 
 # Credits
 
- - Based on the course [Unreal Engine 4 Mastery: Create Multiplayer Games with C++](https://www.udemy.com/course/unrealengine-cpp/) by Tom Looman.
+ - Based on the course [Unreal Engine 4 Mastery: Create Multiplayer Games with C++](https://www.udemy.com/course/unrealengine-cpp/) by Tom Looman. Also many assets are provided as resources for the course.
  - Rifle sound: http://www.m-klier.de/
  - Menu sound: @Joth_Music
  - Death sound: Copyright 2012 Iwan 'qubodup' Gabovitch http://qubodup.net
