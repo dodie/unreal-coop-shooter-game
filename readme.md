@@ -1,7 +1,7 @@
 # Coop Shooter based on Unreal Engine
 
-Play in single or multiplayer, survive as many waves as you can in this third person shooter game. Each round more and more enemies spawn.
-If there is at least one player standing fallen players are revived before each new round.
+Play in single or multiplayer, survive as many waves as you can in this third person shooter game. In each round more and more enemies are coming.
+If there is at least one player standing fallen players are revived before each new round starts.
 
 ![Game](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/screenshot.png "Game")
 
