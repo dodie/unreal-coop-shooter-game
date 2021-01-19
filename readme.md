@@ -23,7 +23,7 @@ In multiplayer mode when connecting to remote machines you might have to specify
 
 ### Soldier Bot
 
-They attack the players with a lightweight rifles. They seek cover as they advance, when wounded they try to retreat into a safe position so they can heal up.
+They attack the players with lightweight rifles and seek cover as they advance. When wounded they try to retreat into a safe position so they can heal up.
 
 ![Soldier Bot](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/soldierbot.jpg "Soldier Bot")
 
