@@ -1,11 +1,12 @@
 # Coop Shooter based on Unreal Engine
 
-Play in single or multiplayer, survive as many waves as you can in this third person shooter game. In each round more and more enemies are coming.
-If there is at least one player standing fallen players are revived before each new round starts.
+Play in single or multiplayer, survive as many waves as you can in this third person shooter game.
 
 ![Game](https://raw.githubusercontent.com/dodie/unreal-coop-shooter-game/main/screenshot.png "Game")
 
-Download the [release](https://github.com/dodie/unreal-coop-shooter-game/releases/), extract, start exe it on Win64, have fun.
+Download the [release](https://github.com/dodie/unreal-coop-shooter-game/releases/) then simply extract and start the game.
+
+In each round more and more enemies are coming. If there is at least one player standing fallen players are revived before each new round starts.
 In multiplayer mode when connecting to remote machines you might have to specify the port `7777` in addition to the host IP address.
 
 
