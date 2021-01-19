@@ -92,4 +92,3 @@ This project is licensed under the Unreal Engine 4 EULA.
  - Menu sound: @Joth_Music
  - Death sound: Copyright 2012 Iwan 'qubodup' Gabovitch http://qubodup.net
  
- <video src="https://github.com/dodie/unreal-coop-shooter-game/blob/main/teaser.mp4?raw=true" width="320" height="200" controls preload></video>
